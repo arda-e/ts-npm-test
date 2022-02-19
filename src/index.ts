@@ -4,3 +4,8 @@ export const sum = (a: number, b: number) => {
   }
   return a + b;
 };
+
+export const id = (birthYear: number, name: string, lastName: string, isCoder: boolean): string => {
+  let str = `${birthYear} -  ${name} ${lastName} - Coder : ${isCoder}`
+  return str
+}
